@@ -5,23 +5,27 @@ body {
 }
 
 section {
-    padding: 0 120px;
+    padding: 0 calc(10vw - 16px);
 }
 
 .logo {
-    width: 295px;
+    width: calc(8.8vw + 182px);
     margin-top: 37px;
 }
 
 .courseData {
-    font-size: 21px;
+    font-size: calc(0.5vw + 14px);
     line-height: 140%;
 
-    margin-top: 85px;
+    margin-top: calc(6.3vw + 4px);
 
     display: flex;
-    gap: 30px 160px;
+    gap: calc(14.4vw - 24px);
     flex-wrap: wrap;
+}
+
+.courseInfo {
+    min-width: 150px;
 }
 
 .courseData .value {
@@ -29,15 +33,15 @@ section {
 }   
 
 h1 {
-    font-size: 80px;
+    font-size: calc(4.2vw + 26px);
     font-family: Chava;
     line-height: 110%;
 
-    margin: 76px 0 40px;
+    margin: calc(3vw + 36px) 0 calc(2.2vw + 12px);
 }
 
 p {
-    font-size: 27px;
+    font-size: calc(1vw + 14px);
     font-weight: 300;
     line-height: 140%;
 }
@@ -76,6 +80,6 @@ p {
 .hello {
     background-image: url('../img/html_css_js.png');
     background-repeat: no-repeat;
-    background-position: top 20px right 20px;
-    background-size: 40vw;
+    background-position: top calc(4.8vw + 59px) right calc(6vw - 20px);
+    background-size: calc(23.8vw + 89px);
 }
