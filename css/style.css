@@ -72,3 +72,10 @@ p {
 
     border: 1px solid #6E3ABA;
 }
+
+.hello {
+    background-image: url('../img/html_css_js.png');
+    background-repeat: no-repeat;
+    background-position: top 20px right 20px;
+    background-size: 40vw;
+}
